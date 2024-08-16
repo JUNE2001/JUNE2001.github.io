@@ -221,7 +221,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Seoul
+timezone: ##Asia/Seoul
 
 # Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
