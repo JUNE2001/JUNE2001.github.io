@@ -19,7 +19,7 @@ locale: "ko-KR"
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
 title: "June's 공부노트"
 title_separator: "|"
-subtitle: "즐겁게 공부하기"
+subtitle: #"즐겁게 공부하기"
 name: "June"
 description: "An amazing website."
 url: "https:/JUNE2001.github.io"
@@ -112,9 +112,9 @@ analytics:
 
 # Site Author
 author:
-  name: "김준영"
+  name: "June's 공부노트"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "파이팅 포렌식"
+  bio: #""
   location: "South Korea"
   email:
   links:
