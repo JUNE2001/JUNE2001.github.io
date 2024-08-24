@@ -1,4 +1,16 @@
 ---
-layout: home
+excerpt: "🔸이해하며 공부하자🔸"
+layout: archive
+sidebar_main: ture
 author_profile: true
+entries_layout: list
+header:
+  overlay_image: /images/banner.png
+  overlay_filter: 0 # same as adding an opacity of 0.5 to a black background
 ---
+
+<div class="grid__wrapper">
+  {% for post in paginator.posts %} {% include archive-single3.html type="list"
+  %} {% endfor %}
+</div>
+{% include paginator.html %}
